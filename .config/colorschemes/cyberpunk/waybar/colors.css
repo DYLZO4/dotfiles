@@ -1,0 +1,41 @@
+/* =========================
+   Background Layers
+   ========================= */
+
+@define-color bg0 #272932;
+@define-color bg1 #2f313c;
+@define-color bg2 #383b47;
+@define-color bg3 #444857;
+
+
+/* =========================
+   Foreground
+   ========================= */
+
+@define-color fg0 #f2f2f2;
+@define-color fg1 #D1C5C0;
+@define-color fg2 #b0a6a2;
+@define-color fg3 #8a8180;
+
+
+/* =========================
+   Accent Colors
+   ========================= */
+
+@define-color accent0 #37EBF3; /* electric blue */
+@define-color accent1 #1AC5B0; /* keppel */
+@define-color accent2 #9370DB; /* purple */
+@define-color accent3 #CB1DCD; /* steel pink */
+@define-color accent4 #E455AE; /* frostbite */
+@define-color accent5 #FDF500; /* rich lemon */
+@define-color accent6 #710000; /* blood red */
+@define-color accent7 #37EBF3;
+
+
+/* =========================
+   Status
+   ========================= */
+
+@define-color status-warning #FDF500;
+@define-color status-critical #710000;
+@define-color status-success #1AC5B0;

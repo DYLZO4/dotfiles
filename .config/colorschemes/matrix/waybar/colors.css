@@ -1,0 +1,39 @@
+/* =========================
+Background Layers
+========================= */
+
+@define-color bg0 #020403; /* Deep black */
+@define-color bg1 #06110A; /* Dark green-black */
+@define-color bg2 #0B1A11; /* Terminal dark */
+@define-color bg3 #10261A; /* Faded matrix green */
+
+/* =========================
+Foreground
+========================= */
+
+@define-color fg0 #E8FFE8; /* Bright terminal text */
+@define-color fg1 #B7F5B7; /* Soft neon green */
+@define-color fg2 #7CFF7C; /* Matrix glow green */
+@define-color fg3 #4CFF4C; /* Bright matrix highlight */
+
+/* =========================
+Accent Colors
+========================= */
+
+@define-color accent0 #00FF41; /* Classic Matrix green */
+@define-color accent1 #00CC33; /* Terminal green */
+@define-color accent2 #00FF9C; /* Cyber teal */
+@define-color accent3 #FF0033; /* Sentinel red */
+@define-color accent4 #33FF88; /* Bright neon green */
+@define-color accent5 #66FF66; /* Soft neon highlight */
+@define-color accent6 #22FF22; /* Code rain green */
+@define-color accent7 #00FFCC; /* Cyber cyan */
+
+/* =========================
+Status
+========================= */
+
+@define-color status-warning #FFD000;  /* Alert yellow */
+@define-color status-critical #FF0033; /* Danger red */
+@define-color status-success #22FF22;  /* Success green */
+
