@@ -1,0 +1,11 @@
+/**
+ * Theme: pink
+ **/
+* {
+    background:     #2e1f22;
+    background-alt: #3a2729;
+    foreground:     #f9eeea;
+    selected:       #f4a7b9;
+    active:         #f4a7b9;
+    urgent:         #6e1a2f;
+}

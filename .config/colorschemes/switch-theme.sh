@@ -41,7 +41,7 @@ done < "$APPS_CONF"
 
 WALL=$(find "$THEME_PATH/wallpaper" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) 2>/dev/null | head -n1)
 if [[ -n "$WALL" ]]; then
-    swww img "$WALL" --transition-type wipe --transition-duration 0.3
+    awww img "$WALL" --transition-type wipe --transition-duration 0.3
     echo "  wallpaper: $WALL"
 else
     echo "  SKIP wallpaper: none found"

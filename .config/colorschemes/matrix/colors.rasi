@@ -1,0 +1,12 @@
+/**
+ * Theme: $THEME_NAME
+ **/
+* {
+    background:     #${020403aa};
+    background-alt: #${020403aa};
+    foreground:     #${E8FFE8aa};
+    selected:       #${00FF41aa};
+    active:         #${00FF41aa};
+    urgent:         #${22FF22aa};
+}
+

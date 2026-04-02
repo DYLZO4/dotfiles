@@ -31,7 +31,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     eval "${key}=${val}"
 done < "$COLORS_FILE"
 
-mkdir -p "$THEME_PATH"/{hypr,waybar,kitty,wallpaper}
+mkdir -p "$THEME_PATH"/{hypr,waybar,kitty,wallpaper,rofi}
 
 # --- Hyprland ---
 cat <<EOF > "$THEME_PATH/hypr/colors.conf"
@@ -109,6 +109,21 @@ color12 #$accent1
 color13 #$accent3
 color14 #$accent0
 color15 #$fg0
+EOF
+
+# --- Rofi ---
+cat <<EOF > "$THEME_PATH/rofi/colors.rasi"
+/**
+ * Theme: $THEME_NAME
+ **/
+* {
+    background:     #${bg0};
+    background-alt: #${bg1};
+    foreground:     #${fg0};
+    selected:       #${accent0};
+    active:         #${accent7};
+    urgent:         #${accent6};
+}
 EOF
 
 touch "$THEME_PATH/wallpaper/wallpaper.jpg"
